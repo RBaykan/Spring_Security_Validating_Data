@@ -24,7 +24,9 @@ The project is structured as follows:
 
 **Installation**
 Clone the repository:
-`git clone https://github.com/RBaykan/Spring_Security_Validating_Data.git`
+```bash
+git clone https://github.com/RBaykan/Spring_Security_Validating_Data.git
+```
 Navigate to the project folder and open it in your preferred IDE (e.g., Eclipse, IntelliJ) and run.
 
 
