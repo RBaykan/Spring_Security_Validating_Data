@@ -31,7 +31,10 @@ Navigate to the project folder and open it in your preferred IDE (e.g., Eclipse,
 
 
 If you want to run it with maven, run a terminal in the project path and enter the following command.
-`mvn spring-boot:run`
+```bash
+mvn spring-boot:run
+```
+
 
 The application will be available at http://localhost:8080.
 
