@@ -48,6 +48,13 @@ This request body will be validated for:
 - Non-empty and valid fields.
 - If any validation fails, the appropriate error message will be returned.
 
+The UserDTO class represents a Data Transfer Object (DTO) used for user registration. It contains the fields required for the registration process. Each field is annotated with validation rules to ensure that the data is valid before being accepted by the system.
+
+Annotations Annotated:
+- @NotNull: This annotation guarantees that the field must be defined (i.e. not null).
+- @NotBlank: This annotation guarantees that the field is not empty or blank (i.e. not an empty string or null).
+
+By setting the annotations on the fields, we can control how the data is validated for the registration system.
 
 ## Custom Validations
 
