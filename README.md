@@ -38,17 +38,16 @@ The application will be available at http://localhost:8080.
 - **Registration Endpoint**: `/api/register` - POST method is used to create a new user, but this project will only validate User data sent via POST method.
 
 Example JSON for User Registration:
-
+To register a user, send a POST request to /api/register with the following JSON body:
 `{   "firstname": "John",   "lastname": "Doe",   "username": "johndoe",   "password": "SecurePass123",   "matchingPassword": "SecurePass123",   "email": "johndoe@example.com" }`
 
-Custom Validations
-### Example JSON for User Registration:
+This request body will be validated for:
 
-json
+- Correct format of the email address.
+- Matching passwords.
+- Non-empty and valid fields.
+- If any validation fails, the appropriate error message will be returned.
 
-Kodu kopyala
-
-`{   "firstname": "John",   "lastname": "Doe",   "username": "johndoe",   "password": "SecurePass123",   "matchingPassword": "SecurePass123",   "email": "johndoe@example.com" }`
 
 ## Custom Validations
 
