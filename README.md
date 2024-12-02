@@ -39,7 +39,8 @@ The application will be available at http://localhost:8080.
 
 Example JSON for User Registration:
 To register a user, send a POST request to /api/register with the following JSON body:
-`{   "firstname": "John",   "lastname": "Doe",   "username": "johndoe",   "password": "SecurePass123",   "matchingPassword": "SecurePass123",   "email": "johndoe@example.com" }`
+
+``` json{   "firstname": "John",   "lastname": "Doe",   "username": "johndoe",   "password": "SecurePass123",   "matchingPassword": "SecurePass123",   "email": "johndoe@example.com" }```
 
 This request body will be validated for:
 
