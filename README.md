@@ -47,12 +47,12 @@ To register a user, send a POST request to /api/register with the following JSON
 
 ```json
 {
-  "firstname": "John",
-  "lastname": "Doe",
-  "username": "johndoe",
-  "password": "SecurePass123",
-  "matchingPassword": "SecurePass123",
-  "email": "johndoe@example.com"
+  "firstname": "Ali",
+  "lastname": "Veli",
+  "username": "ali_veli",
+  "password": "1234",
+  "matchingPassword": "1234",
+  "email": "aliveli@example.com"
 }
 ```
 
